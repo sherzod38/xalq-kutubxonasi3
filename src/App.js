@@ -1,12 +1,15 @@
+import './assests/styles/main.scss'
+
+
+import MainlyPart from './container/MainlyPart'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Assalomu alaykum.</h1>
-      <h2>ffffffffffffffffffffffffffffffff</h2>
-      <h3>Salom</h3>
-      <h1>dhdhhdhdhd</h1>
-      
+       
+      <MainlyPart/>
+   
     </div>
   );
 }

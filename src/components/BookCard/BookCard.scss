@@ -1,0 +1,97 @@
+.bookCard {
+    margin-right: 45px;
+    margin-bottom: 28px;
+}
+
+.bookCard:nth-child(5n) {
+    margin-right: 0;
+}
+
+.bookCard.active {
+    background: #FFFFFF;
+    opacity: 0.6;
+}
+
+.bookCard:last-child {
+    margin-right: 0px;
+}
+
+
+.bookCard-bottom-icons {
+    display: flex;
+
+    .icons__info {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #1B1B1B;
+        opacity: 0.5;
+    }
+
+    .icons-left {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+    }
+
+    .icons-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons__img {
+        margin-right: 5px;
+    }
+
+
+
+
+
+}
+
+.bookCard-top__link {
+    display: block;
+    margin-bottom: 17px;
+
+}
+
+.bookCard-top__Img {
+    display: inline-block;
+    border-radius: 5px;
+    width: 220px;
+    height: 280px;
+
+}
+
+.bookCard-bottom__link1 {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.title.title--grey {
+    display: block;
+    margin-bottom: 10px;
+    color: #1B1B1B;
+    opacity: 0.6;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.title.title--black {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+    width: 190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
